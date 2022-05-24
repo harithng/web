@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+<title>TRANGCHU</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:rgb(112, 179, 247) ;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(94, 216, 200);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:rgb(243, 241, 150);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(25, 90, 155);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>HOME</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+     <li><a href="./Home.html">Personal information</a></li>
+      <li><a href="./home3.html" target = "_self">Check</a></li>
+      <li><a href="./home4.html" target = "_self">Add new timekeeping code</a></li>
+      <li><a href="#">Other</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <head>
+        <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color:rgb(136, 193, 250);
+        }
+        </style>
+        </head>
+    <h2>INFO Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <label for="fname">ID:</label><br>
+  <input type="text" id="fname" name="fname" value="123456"><br>
+  <label for="fname">Position:</label><br>
+  <input type="text" id="fname" name="fname" value="Member"><br>
+  <label for="fname">Date of birth:</label><br>
+  <input type="text" id="fname" name="fname" value="1/1/2003"><br>
+  <label for="fname">Phone number:</label><br>
+  <input type="text" id="fname" name="fname" value="1/1/2003"><br>
+  <label for="fname">Email:</label><br>
+  <input type="text" id="fname" name="fname" value="haringuyen105@gmail.com"><br>
+  <label for="fname">Address:</label><br>
+  <input type="text" id="fname" name="fname" value="Phenikaa"><br><br>
+  
+  <input type="submit" value="Submit">
+</form> 
+  </article>
+</section>
+
+<footer>
+  <p>Thanks</p>
+</footer>
+
+</body>
+</html>
+
+
+

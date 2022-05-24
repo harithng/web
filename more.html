@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+<title>INFORMATION</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:rgb(112, 179, 247) ;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(94, 216, 200);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:rgb(243, 241, 150);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(25, 90, 155);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(221, 182, 182); 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: rgb(221, 182, 182); 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <h2>Information</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+     <li><a href="./Home.html">Personal information</a></li>
+      <li><a href="./home3.html" target = "_self">Check</a></li>
+      <li><a href="./home4.html" target = "_self">Add new timekeeping code</a></li>
+      <li><a href="#">Other</a></li>   
+     </ul>
+  </nav>
+  
+  <article>
+    <button class="button button1"><li><a href="./Home.html"></li>Back</button><br>
+    <B> ID: </B> 01 <br>
+    <B> Full Name: </B> Emma Waston <br>
+    <B> Faculty: </B> IT <br>
+    <B> Gender: </B> Male <br>
+    <B> Contact: </B> 0123456789 <br>
+      Image1: <a href="https:">
+        <img border="0" alt="image" src="ảnh.png" width="100" height="100">
+        </a> &emsp; &emsp;
+      Image2: <a href="https:">
+        <img border="0" alt="image" src="ảnh.png" width="100" height="100">
+        </a>
+    </p>
+    <p>
+      Image3: <a href="https:">
+        <img border="0" alt="image" src="ảnh.png" width="100" height="100">
+        </a> &emsp; &emsp;
+      Image4: <a href="https:">
+        <img border="0" alt="image" src="ảnh.png" width="100" height="100">
+        </a>
+    </p>
+    <button class="button button2">REPAIR</button>
+    <button class="button button2">SAVE</button>
+  </article>
+</section>
+
+</body>

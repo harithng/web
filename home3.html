@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+<title>TRANGCHU</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:rgb(112, 179, 247) ;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(94, 216, 200);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:rgb(243, 241, 150);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(25, 90, 155);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>HOME</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+     <li><a href="./Home.html">Personal information</a></li>
+      <li><a href="./home3.html" target = "_self">Check</a></li>
+      <li><a href="./home4.html" target = "_self">Add new timekeeping code</a></li>
+      <li><a href="#">Other</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+     <form action="/action_page.php">
+            <label for="date">Select date:</label>
+            <input type="date" id="date" name="date">
+            <input type="submit">
+          </form>
+        
+    <head>
+        <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color:rgb(136, 193, 250);
+        }
+        </style>
+        </head>
+  
+
+    <table border="4">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Time</th>
+            <th>Note</th>
+          
+        </tr>
+        <tr>
+          <th></th><br>
+          <th></th>
+          <th></th>
+          <th> </th>
+      </tr>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th> </th>
+      </tr>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th> </th>
+      </tr>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th> </th>
+      </tr>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th> </th>
+      </tr>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th> </th>
+      </tr>
+        
+    </table>
+  </article>
+</section>
+
+<footer>
+  <p>Thanks</p>
+</footer>
+
+</body>
